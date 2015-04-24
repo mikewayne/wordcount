@@ -9,6 +9,5 @@ end
 
 get('/title') do
   @numCount = params.fetch('numCount')
-  @numCount = @numCount.wordcount()
   erb(:title)
 end

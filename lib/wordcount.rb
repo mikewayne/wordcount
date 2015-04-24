@@ -1,8 +1,9 @@
 class String
   define_method(:wordcount) do
+
     stringOne = self
     words = stringOne.split()
-    myWord = [words].at(0)
+    myWord = words[0]
     myWord
     #wordWeWant = [words].at(0)
     #wordWeWant

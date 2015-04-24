@@ -1,5 +1,5 @@
 require('rspec')
-require('./lib/wordcount')
+require('./lib/wordcount.rb')
 
 describe('String@wordcount') do
   it("takes an inputted string, outputs the first word in the string") do
