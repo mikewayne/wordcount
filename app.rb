@@ -8,6 +8,7 @@ get('/') do
 end
 
 get('/title') do
-  @numCount.wordcount()
+  @numCount = params.fetch('numCount')
+  @numCount = @numCount.wordcount()
   erb(:title)
 end
