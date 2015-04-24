@@ -1,9 +1,9 @@
 require('rspec')
 require('./lib/wordcount.rb')
 
-describe('String@wordcount') do
+describe('String#wordcount') do
   it("takes an inputted string, outputs the first word in the string") do
-    expect(("there everywhere here").wordcount()).to(eq("there"))
+    expect(("there everywhere here").wordcount()).to(eq(1))
 end
 end
 
