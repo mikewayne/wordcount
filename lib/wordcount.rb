@@ -1,10 +1,12 @@
 class String
-
   define_method(:wordcount) do
     stringOne = self
-    words = self.split("")
-    wordWeWant = [words].end()
-    numCount = wordWeWant.count()
+    words = stringOne.split()
+    myWord = [words].at(0)
+    myWord
+    #wordWeWant = [words].at(0)
+    #wordWeWant
+    #numCount = wordWeWant.count(self)
+    #numCount
   end
-  numCount
 end

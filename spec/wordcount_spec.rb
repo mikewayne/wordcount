@@ -2,8 +2,8 @@ require('rspec')
 require('./lib/wordcount')
 
 describe('String@wordcount') do
-  it("takes an inputted string and outputs the boolean response 'true' or 'false' if the first word of the string is in there") do
-    expect(("You are here.").wordcount()).to(eq("True"))
+  it("takes an inputted string, outputs the first word in the string") do
+    expect(("there everywhere here").wordcount()).to(eq("there"))
 end
 end
 
